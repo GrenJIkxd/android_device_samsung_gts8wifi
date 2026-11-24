@@ -24,8 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-# Inherit some common TWRP stuff
-$(call inherit-product, vendor/twrp/config/common.mk)
+# Inherit some common PBRP stuff
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/gts8wifi/device.mk)
@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += \
     charger_res_images
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_gts8wifi
+PRODUCT_NAME := pb_gts8wifi
 PRODUCT_DEVICE := gts8wifi
 PRODUCT_MODEL := SM-X700
 PRODUCT_BRAND := samsung

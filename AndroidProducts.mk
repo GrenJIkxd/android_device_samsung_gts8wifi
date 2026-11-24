@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/twrp_gts8wifi.mk
+	$(LOCAL_DIR)/pb_gts8wifi.mk
 
 COMMON_LUNCH_CHOICES := \
-	twrp_gts8wifi-eng
+	pb_gts8wifi-eng
