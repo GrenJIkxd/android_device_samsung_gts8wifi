@@ -1,5 +1,5 @@
 #
-# OrangeFox Recovery Project configuration for Samsung Galaxy Tab S8 Wi-Fi (gts8wifi)
+# OrangeFox 16.0 (bp2a) Recovery Project configuration for Samsung Galaxy Tab S8 Wi-Fi (gts8wifi)
 #
 
 # Maintainer & build metadata
