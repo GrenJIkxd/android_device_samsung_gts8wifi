@@ -161,3 +161,6 @@ TW_NO_BIND_SYSTEM := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_USE_LEGACY_BATTERY_SERVICES := true
 TW_BACKUP_EXCLUSIONS := /data/fonts
+
+# OrangeFox configuration
+-include $(DEVICE_PATH)/fox_gts8wifi.mk
