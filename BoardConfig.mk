@@ -82,7 +82,7 @@ BOARD_MKBOOTIMG_ARGS += \
     --second_offset $(BOARD_KERNEL_SECOND_OFFSET) \
     --dtb_offset $(BOARD_DTB_OFFSET) \
     --header_version $(BOARD_BOOT_HEADER_VERSION) \
-    --board "SRPUI09A009"
+    --board SRPUI09A009
 
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -143,7 +143,7 @@ RECOVERY_TOUCHSCREEN_FLIP_X := false
 RECOVERY_TOUCHSCREEN_FLIP_Y := false
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
-TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone50/temp
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 612
