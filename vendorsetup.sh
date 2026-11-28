@@ -30,7 +30,6 @@ export FOX_ASH_IS_BASH=1
 export FOX_USE_TAR_BINARY=1
 export FOX_USE_SED_BINARY=1
 export FOX_USE_XZ_UTILS=1
-export FOX_USE_NANO_EDITOR=1
 export FOX_DELETE_AROMAFM=1
 
 export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/bootdevice/by-name/recovery"
